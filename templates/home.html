@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOME</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/static/styles.css" type="text/css">
+
+</head>
+<body>
+<div class="login-form">
+    <form action="/login" method="post">
+        <h2 class="text-center">Welcome, {{user}}!</h2> 
+        <br>      
+        <p> Enjoy. </p> 
+        <br>
+        <a href="/logout"> Sign out </a>
+    </form>
+</div>
+</body>
+</html>
